@@ -15,6 +15,6 @@ const connectDBFunction = async () => {
     console.error("❌ MongoDB Connection Error:", error);
     process.exit(1); // Stop the app if DB connection fails
   }
-};
+}; 
 
 export default connectDBFunction;
